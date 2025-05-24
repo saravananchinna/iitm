@@ -34,7 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-  test: 
+  test:
+     runs-on: ubuntu-latest
      steps:
        - name: 23f1001754@ds.study.iitm.ac.in
          run: echo "Hello, world!"
